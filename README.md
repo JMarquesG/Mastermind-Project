@@ -10,7 +10,9 @@
 
 ## Description
 
-    After runing the django -> python3 manage.py runserve
+    After runing the django settings -> python3 manage.py makemigrations
+                                        python3 manage.py migrate
+                                        python3 manage.py runserve
     The api will be deployed in localhost:8000/
 
     Request:
